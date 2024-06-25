@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHelloFastify()).toBe('Hello World!');
+    it('should return "Hello Fastify!"', () => {
+      expect(appController.getHelloFastify()).toBe('Hello Fastify!');
     });
   });
 });
